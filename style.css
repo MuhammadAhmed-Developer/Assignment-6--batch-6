@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.icon-location{
+    color:  #FFB30E;
+}
+
+.button-login{
+    color: #FFB30E;
+background: #FFFFFF;
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 8px;
+
+}
+.front-text{
+    
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 100%;
+color: #FFFFFF;
+text-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01), 0px 27px 82px rgba(255, 174, 0, 0.28);
+
+}
+.btn-delivery{
+    color: #F17228;
+    background: rgba(241, 114, 40, 0.1);
+    border-radius: 8px;
+
+}
+.btn-delivery:hover{
+    color: #F17228;
+    background: rgba(247, 246, 245, 0.1);
+    border-radius: 8px;
+    border: 1px solid #F17228;
+
+}
+
+.icon-email{
+    color: #F17228;
+}
+
+.input-field{
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+.find-food{
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+border-radius: 8px;
+}
+
+
+.section-3rd{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+}
+
+.how{
+ color: #F17228;
+}
+
+@media screen and (max-width: 480px) {
+    .front-text{
+        font-size: 30px;
+    }.search{
+        display: none;
+    }.center-top{
+        visibility: hidden;
+    }.foodwaGon{
+        display: none;
+    }.logo{
+        width: 50% !important;
+    }
+  }
+
