@@ -60,7 +60,22 @@ border-radius: 8px;
 .how{
  color: #F17228;
 }
-
+.icon-arrow{
+    color: #FFB30E;
+    cursor: pointer;
+}
+.color-text{
+    color: #FFB30E;
+}
+.btn-order{
+    padding: 5px 48px;
+    font-size: 12px;
+}
+.btn-order:hover{
+    background-color: #ebeae9 !important;
+    border: 2px solid #ebeae9;
+    color: #F75900;
+}
 @media screen and (max-width: 480px) {
     .front-text{
         font-size: 30px;
