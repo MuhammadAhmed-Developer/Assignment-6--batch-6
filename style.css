@@ -121,6 +121,14 @@ border-radius: 16px;
 .last-section{
     background: url(./images/oragne\ background.png) ;
     
+}.list{
+    list-style: none;
+    line-height: 2rem;
+}.mailbox{
+    background: #424242;
+border-radius: 8px;
+border: 0 !important;
+margin-top: 3px;
 }
 @media screen and (max-width: 480px) {
     .front-text{
