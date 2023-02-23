@@ -76,6 +76,52 @@ border-radius: 8px;
     border: 2px solid #ebeae9;
     color: #F75900;
 }
+.world{
+    color: #FFB30E;
+}
+.btn-open{
+    background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+color: #79B93C;
+}
+.btn-open:hover{
+    background: rgba(252, 253, 251, 0.2);
+border: 1px solid #79B93C;
+color: #79B93C;
+}
+.view{
+    background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 10;
+
+}
+.view:hover{
+    background: white;  
+    color: #FFBA26 !important;
+    border: 2px solid #FFB30E;
+
+}.search-food{
+    background: #FEFAF1;
+}
+.view-all{
+    color: #FFBA26;
+}
+.mobile-sec{
+    background: #FEEFD0;
+}
+.card-hori{
+    filter: drop-shadow(0px 14px 15px rgba(124, 124, 124, 0.06)) drop-shadow(0px 27px 82px rgba(124, 124, 124, 0.28));
+border-radius: 16px;    
+}
+.cripsy{
+    color: 
+    #FFB30E;
+}
+.last-section{
+    background: url(./images/oragne\ background.png) ;
+    
+}
 @media screen and (max-width: 480px) {
     .front-text{
         font-size: 30px;
@@ -87,6 +133,9 @@ border-radius: 8px;
         display: none;
     }.logo{
         width: 50% !important;
+    }
+    .icon-arrow{
+        display: none;
     }
   }
 
